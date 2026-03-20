@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p metro-spec/architecture/c4/containers metro-spec/architecture/adrs metro-spec/architecture/bdrs metro-spec/architecture/standards metro-spec/knowledge/personas metro-spec/knowledge/customer-segments metro-spec/templates)",
+      "Bash(touch metro-spec/knowledge/glossary.md)",
+      "Bash(for domain:*)",
+      "Bash(do)",
+      "Bash(mkdir -p metro-spec/domains/$domain/epics metro-spec/domains/$domain/blueprints metro-spec/domains/$domain/architecture/adrs metro-spec/domains/$domain/architecture/bdrs metro-spec/domains/$domain/architecture/hlds metro-spec/domains/$domain/architecture/llds metro-spec/domains/$domain/architecture/api-specs metro-spec/domains/$domain/knowledge)",
+      "Bash(touch metro-spec/domains/$domain/README.md)",
+      "Bash(done)",
+      "Bash(do echo:*)",
+      "Read(//c/Users/neils/Code/BlueHat_AI_Method/metro-spec/domains/**)"
+    ]
+  }
+}
