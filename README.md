@@ -108,7 +108,7 @@ Research on Intent-Driven Development reports complex projects delivered with ap
 │   ├── bdrs/                      # Business Decision Records
 │   └── standards/                 # API standards, security patterns, coding guidelines
 │
-├── domains/                       # Flat domain folders (23 domains)
+├── domains/                       # Flat domain folders
 │   ├── onboarding/
 │   ├── account-servicing/
 │   ├── lending/
@@ -119,7 +119,7 @@ Research on Intent-Driven Development reports complex projects delivered with ap
 │   ├── beyond-banking/
 │   ├── enabling-functions/
 │   ├── platform-engineering/
-│   └── ... (23 total)
+│   └── ... (etc)
 │
 ├── knowledge/                     # Shared reference material
 │   ├── glossary.md                # Standard terminology
@@ -168,7 +168,7 @@ Research on Intent-Driven Development reports complex projects delivered with ap
 | 9 | `enabling-functions` | Shared internal capabilities (notifications, document generation) |
 | 10 | `platform-engineering` | Infrastructure, CI/CD, observability, platform services |
 | 11 | `realtime-subledger` | Core accounting engine — real-time double-entry ledger and balance management |
-| 12-23 | *To be defined* | Remaining domains to be added based on organisational structure |
+| 12-xx | *To be defined* | Remaining domains to be added based on organisational structure |
 
 ### Adding a New Domain
 
