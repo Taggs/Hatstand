@@ -11,7 +11,7 @@ This repository has no build or test commands. Validation is done through pull r
 ## Project Structure
 
 ```
-BH-hatstand/
+./
 ├── architecture/          # Bank-wide architecture (ADRs, BDRs, C4 diagrams, standards)
 ├── domains/               # 23 business domains, each with epics/features/stories
 ├── knowledge/             # Glossary, personas, customer segments

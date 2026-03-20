@@ -9,7 +9,10 @@
       "Bash(touch metro-spec/domains/$domain/README.md)",
       "Bash(done)",
       "Bash(do echo:*)",
-      "Read(//c/Users/neils/Code/BlueHat_AI_Method/metro-spec/domains/**)"
+      "Read(//c/Users/neils/Code/BlueHat_AI_Method/metro-spec/domains/**)",
+      "Bash(shopt -s dotglob)",
+      "Bash(mv BH-hatstand/* .)",
+      "Bash(rmdir BH-hatstand)"
     ]
   }
 }

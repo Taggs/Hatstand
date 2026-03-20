@@ -100,7 +100,7 @@ Research on Intent-Driven Development reports complex projects delivered with ap
 ## 4. Repository Structure
 
 ```
-BH-hatstand/
+./
 ├── architecture/                  # Bank-wide architecture
 │   ├── c4/
 │   │   └── containers/            # C4 model system/container diagrams
@@ -517,7 +517,7 @@ Use OpenAPI 3.x format in YAML. Place in `architecture/api-specs/` (domain-level
 
 ### CLAUDE.md
 
-Located at the repository root (`BH-hatstand/CLAUDE.md`), this file instructs Claude Code on:
+Located at the repository root (`CLAUDE.md`), this file instructs Claude Code on:
 
 - Repository purpose and structure
 - File placement rules (which artefacts go where)
@@ -530,7 +530,7 @@ Claude Code loads this file automatically at the start of every session.
 
 ### AGENTS.md
 
-Located at the repository root (`BH-hatstand/AGENTS.md`), this file provides equivalent guidance for other AI tools (GitHub Copilot, Cursor, Windsurf, etc.) following the [AGENTS.md standard](https://agents.md/).
+Located at the repository root (`AGENTS.md`), this file provides equivalent guidance for other AI tools (GitHub Copilot, Cursor, Windsurf, etc.) following the [AGENTS.md standard](https://agents.md/).
 
 ### Per-Domain Context
 
